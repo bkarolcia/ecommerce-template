@@ -1,0 +1,75 @@
+@import "./variables";
+
+.mini-basket {
+  width: 0px;
+  transition: 0.2s;
+  background-color: $pure-white;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  height: 100%;
+  border-left: 2px solid $white;
+
+  &__products {
+    margin-top: 40px;
+    height: 100%;
+    overflow: scroll;
+    padding-right: 20px;
+  }
+
+  &__hide-button {
+    display: inline-block;
+    padding: 7px;
+    background-color: $red;
+    color: $white;
+    border-radius: 2px;
+    border: 1px solid #ed455b;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      margin-right: 20px !important;
+    }
+  }
+
+  &__wrapper {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+  }
+
+  &__total {
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  }
+
+  &__empty-message {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: $light-black;
+    font-weight: 200;
+    margin-top: 50px;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  &--show {
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

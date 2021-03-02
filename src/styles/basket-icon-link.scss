@@ -1,0 +1,30 @@
+@import "./variables";
+
+.basket-icon-link {
+  color: $white;
+  position: relative;
+  cursor: pointer;
+
+  &__icon {
+    font-size: 26px;
+  }
+
+  &__counter {
+    background-color: $red;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+  }
+
+  &__container {
+    display: inline-block;
+    position: relative;
+  }
+}

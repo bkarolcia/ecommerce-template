@@ -1,0 +1,33 @@
+@import "./variables";
+
+.logo {
+  display: flex;
+  &__header {
+    color: $white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    &--thin {
+      font-weight: 200;
+    }
+  }
+
+  &__text {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+    &--red {
+      color: $red;
+    }
+  }
+
+  &__icon {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    color: $red;
+  }
+}
