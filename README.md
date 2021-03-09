@@ -2,6 +2,8 @@
 
 This project was created to expand my knowledge and learn react by programming this ecommerce template.
 
+# If you want to see this page live, check it ---> https://ecommerce-template-project.herokuapp.com/
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
